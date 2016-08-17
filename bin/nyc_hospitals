@@ -1,0 +1,6 @@
+#! /usr/bin/env ruby
+
+require './lib/nyc_hospitals'
+require './lib/scraper'
+
+NycHospitals::CLI.new.call
