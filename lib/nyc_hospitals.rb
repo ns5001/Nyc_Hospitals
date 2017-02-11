@@ -1,7 +1,6 @@
 require_relative "./nyc_hospitals/version"
 require_relative "./nyc_hospitals/cli"
 require "./lib/scraper"
-require 'pry'
 
 class NycHospitals::NycHospitals
   attr_accessor :master_hash

@@ -1,6 +1,5 @@
 require 'open-uri'
 require 'json'
-require 'pry'
 require './lib/nyc_hospitals'
 
 def scraper
